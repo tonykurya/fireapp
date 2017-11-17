@@ -1,0 +1,11 @@
+<div>
+    <h3>{{ note.content }}</h3>
+
+
+    <span class="button is-small is-info" (click)='addHeartToNote(note.hearts)' style="border-radius: 2px">
+      Heart <i class="fa fa-heart"></i>
+    </span>
+    <span class="button is-small is-danger" (click)='deleteNote(note.id)' style="border-radius: 2px">Delete</span>
+
+    <p>This note has been hearted {{ note.hearts || 0 }} times.</p>
+  </div>
