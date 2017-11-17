@@ -21,7 +21,7 @@ FireApp is a basic Angular PWA powered by Firebase. It can serve as a foundation
 
 Create an account at https://firebase.google.com/
 
-- `git clone https://github.com/codediodeio/angular-firestarter.git firestarter`
+- `git clone https://github.com/tonykurya/fireapp.git`
 - `cd fireapp`
 - `npm install`
 
